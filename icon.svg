@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Sim Jacket icon</title>
+  <desc id="desc">A cobalt and teal icon combining a jacket silhouette with an ultrasound target.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="44" x2="448" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a56c9"/>
+      <stop offset="0.58" stop-color="#0c46a3"/>
+      <stop offset="1" stop-color="#092e6f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="156" y1="118" x2="378" y2="354" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8ef2f6"/>
+      <stop offset="1" stop-color="#14a8b7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(356 146) rotate(137.8) scale(198.239)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="28" y="28" width="456" height="456" rx="116" fill="url(#bg)"/>
+  <rect x="28" y="28" width="456" height="456" rx="116" fill="url(#glow)"/>
+  <path d="M170 142c17-22 43-34 86-34 42 0 69 12 86 34l50 69c8 12 13 26 13 41v91c0 17-14 31-31 31h-31c-17 0-31-14-31-31v-55h-112v55c0 17-14 31-31 31h-31c-17 0-31-14-31-31v-91c0-15 5-29 13-41l50-69Z" fill="none" stroke="#f4fbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
+  <path d="M219 136h74" stroke="#f4fbff" stroke-linecap="round" stroke-width="28"/>
+  <circle cx="256" cy="244" r="62" fill="none" stroke="url(#accent)" stroke-width="24"/>
+  <circle cx="256" cy="244" r="25" fill="#eafcff"/>
+  <path d="M339 307 393 361" stroke="url(#accent)" stroke-linecap="round" stroke-width="30"/>
+  <path d="M154 357h204" stroke="#f4fbff" stroke-linecap="round" stroke-opacity=".9" stroke-width="24"/>
+</svg>
