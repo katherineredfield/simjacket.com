@@ -256,14 +256,14 @@
     }
     .process {
       display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
+      grid-template-columns: 1fr;
       gap: 22px;
       margin-top: 22px;
       align-items: stretch;
     }
     .build-gallery {
       display: grid;
-      grid-template-rows: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 22px;
       height: 100%;
     }
@@ -396,6 +396,7 @@
     .footer strong { color: var(--blue); }
     @media (max-width: 980px) {
       .hero-grid, .comparison, .duo, .process { grid-template-columns: 1fr; }
+      .build-gallery { grid-template-columns: 1fr; }
       .logo-column { justify-self: start; max-width: 100%; }
       .logo-card { min-height: 120px; }
       .image-card { min-height: 400px; }
