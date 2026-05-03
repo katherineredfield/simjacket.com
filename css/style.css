@@ -122,6 +122,31 @@
       box-shadow: var(--shadow);
       padding: 32px;
     }
+    .interest-panel {
+      margin-top: 22px;
+      padding: 24px 32px;
+      border-radius: 32px;
+      background: linear-gradient(135deg, rgba(20,168,183,0.14), rgba(12,70,163,0.08) 60%, rgba(255,255,255,0.78));
+      border: 1px solid rgba(20,168,183,0.22);
+      box-shadow: var(--shadow);
+    }
+    .interest-panel p {
+      margin: 0;
+      font-size: clamp(1rem, 1.6vw, 1.2rem);
+      line-height: 1.65;
+      color: var(--ink);
+    }
+    .interest-panel strong {
+      color: var(--blue-deep);
+    }
+    .interest-panel a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .interest-panel a:hover {
+      text-decoration: underline;
+    }
     .section-head {
       display: flex;
       justify-content: space-between;
@@ -403,7 +428,7 @@
     }
     @media (max-width: 720px) {
       .page { width: min(100% - 18px, 100%); }
-      .hero, .section { padding: 22px; border-radius: 24px; }
+      .hero, .section, .interest-panel { padding: 22px; border-radius: 24px; }
       .tag strong { font-size: 1.1rem; }
       .overlay { inset: auto 12px 12px 12px; }
       .logo-card {
